@@ -72,11 +72,11 @@ const PatientIntakeForm = () => {
 
 
     return (
-        <div className="min-h-screen bg-gray-50 flex items-center justify-center p-6">
-            <div className="w-full max-w-4xl bg-white rounded-3xl shadow-md overflow-hidden flex flex-col sm:flex-row">
+        <div className="min-h-screen bg-gray-50 flex items-center justify-center sm:p-6">
+            <div className="w-full max-w-4xl bg-white sm:rounded-3xl shadow-md overflow-hidden flex flex-col sm:flex-row">
 
                 {/* ── Left panel ── */}
-                <div className="sm:w-2/5 bg-linear-to-b from-teal-50 to-white flex flex-col justify-between px-8 py-12">
+                <div className="sm:w-2/5 bg-linear-to-b from-teal-50 to-white flex flex-col justify-between px-5 py-8 sm:px-8 sm:py-12">
                     <div>
                         {/* Icon + clinic image side by side */}
                         <div className="flex items-center  mb-16">
@@ -113,7 +113,7 @@ const PatientIntakeForm = () => {
                 </div>
 
                 {/* ── Right panel ── */}
-                <div className="sm:w-3/5 px-8 py-12 flex flex-col justify-center">
+                <div className="sm:w-3/5 px-5 py-8 sm:px-8 sm:py-12 flex flex-col justify-center">
                     {step === 1 && (
                         <>
                             <p className="text-xs font-semibold text-teal-500 uppercase tracking-widest mb-1">Step 1</p>
